@@ -226,7 +226,7 @@ public class Admin01 {
     /************************************************************************************************************************/
     public void view_Patients_List(Statement dr4) {
         try {
-            System.out.print("Please Enter 1 to show All-Doctor-List: ");
+            System.out.print("Please Enter 1 to show All-Patient-List: ");
             int l = a.nextInt();
             if (l == 1) {
                 String vp = ("select*from Patient_Informetion ");
